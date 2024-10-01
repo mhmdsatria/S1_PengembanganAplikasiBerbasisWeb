@@ -1,0 +1,23 @@
+h4 {
+    color: black;
+}
+
+col.a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: inherit;
+
+    &-a:hover {
+        color: inherit;
+        /* Menghilangkan perubahan warna saat hover atau fokus */
+        text-decoration: none;
+    }
+}
+
+col.a:hover,
+a:focus {
+    color: inherit;
+    /* Menghilangkan perubahan warna saat hover atau fokus */
+    text-decoration: none;
+    /* Menghilangkan garis bawah saat hover atau fokus */
+}
